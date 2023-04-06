@@ -9,7 +9,9 @@ class UserDTO extends AbstractDataTransferObject
     private int|null $id;
     private string|null $name;
     private string|null $email;
+    private string|null $email_verified_at;
     private string|null $password;
+    private string|null $remember_token;
     private string|null $created_at;
     private string|null $updated_at;
 
@@ -46,6 +48,17 @@ class UserDTO extends AbstractDataTransferObject
         return $this;
     }
 
+    public function getEmailVerifiedAt(): ?string
+    {
+        return $this->email_verified_at;
+    }
+
+    public function setEmailVerifiedAt(?string $email_verified_at): UserDTO
+    {
+        $this->email_verified_at = $email_verified_at;
+        return $this;
+    }
+
     public function getPassword(): ?string
     {
         return $this->password;
@@ -54,6 +67,17 @@ class UserDTO extends AbstractDataTransferObject
     public function setPassword(?string $password): UserDTO
     {
         $this->password = $password;
+        return $this;
+    }
+
+    public function getRememberToken(): ?string
+    {
+        return $this->remember_token;
+    }
+
+    public function setRememberToken(?string $remember_token): UserDTO
+    {
+        $this->remember_token = $remember_token;
         return $this;
     }
 
