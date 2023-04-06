@@ -81,3 +81,4 @@ $userDTO = UserDTO::makeWith($user);
 $name = $userDTO->getName();
 $id = $userDTO->getId();
 ```
+![Getter Auto-Completion Image](https://raw.githubusercontent.com/PositiveInsu/dto-for-laravel-eloquent-model/main/resources/images/GetterImage.png)
