@@ -89,3 +89,11 @@ Image - getter method Auto-completion in PHPStorm.
 Image - setter method Auto-completion in PHPStorm
 
 ![Setter Auto-Completion Image](https://raw.githubusercontent.com/PositiveInsu/dto-for-laravel-eloquent-model/main/resources/images/SetterImage.png)
+
+## Further Usage
+
+Please check the unit test folder, you can see the more detail usage.
+
+> Check the /app/tests/Unit/DataTransferObjectTest.php
+
+
