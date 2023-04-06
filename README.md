@@ -23,6 +23,7 @@ I developed this code for reducing this uncomfortable situation.
 Data Transfer Object allow PHP Laravel developer to use Model more clearly and way of OOP.
 
 ## Usage
+
 I planned to deploy the library by the Composer, but for now, you just copy and paste the code to your project and use it.
 
 > Check the /app/Dto/AbstractDataTransferObject.php
